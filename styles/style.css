@@ -5,6 +5,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+
 .header {
   position: relative;
   display: flex;
@@ -37,6 +38,7 @@
   position: absolute;
   bottom: 30px;
   left: 0;
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   z-index: 2;
@@ -65,6 +67,7 @@
   bottom: 0;
 }
 
+
 .two-columns {
   display: flex;
   margin: 100px;
@@ -87,7 +90,7 @@
 }
 
 .two-columns__paragraph {
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
 }
 
 .two-columns__paragraph:last-child {
@@ -100,6 +103,7 @@
   font-weight: bold;
 }
 
+
 .section-title {
   margin: 100px auto 0 auto;
   width: 60%;  
@@ -109,6 +113,11 @@
   font-weight: bold;
 }
 
+.section-title_theme_dark {
+  color: white;
+}
+
+
 .section-subtitle {
   margin: 20px auto 0 auto;
   width: 60%;
@@ -116,6 +125,11 @@
   line-height: 34px;
   font-size: 24px;
 }
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
 
 .table {
   margin: 0 auto 100px auto;
@@ -125,11 +139,6 @@
   justify-content: space-between;
   max-width: 1100px;
   width: 100%;
-}
-
-.table__cell {
-  width: 250px;
-  margin-top: 60px;
 }
 
 .table__heading {
@@ -144,14 +153,81 @@
   margin-top: 20px;
 }
 
-.table-text__paragraph {
-  margin-top: 20px;
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
 }
+
+
+.feynman {
+  position: relative;
+  background-color: #f2f2f2;
+  height: 890px;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+
+.feynman__title {
+  margin: 100px 0 0 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 1;
+  width: 648px;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  z-index: 1;
+  color: #2f80ed;
+}
+
+.feynman__image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867px;
+  height: 637px;  
+  z-index: 0;
+}
+
+
+.kaufman {
+  position: relative;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden; 
+  z-index: -2;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;  
+  z-index: -1;
+  width: 877px;
+  height: 877px;
+}
+
