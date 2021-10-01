@@ -1,0 +1,12 @@
+.resources__logo {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  max-height: 38px;
+  opacity: 1;
+}
+
+.resources__logo:hover {
+  opacity: 0.8;
+  transition: opacity .2s ease-out;
+} 

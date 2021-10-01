@@ -1,0 +1,7 @@
+.video__iframe {
+  display: flex;
+  flex-direction: column;
+  max-width: 515px;
+  max-height: 316px;
+  z-index: 10;
+}
