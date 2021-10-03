@@ -15,7 +15,6 @@
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 
 @import url(../blocks/two-columns/two-columns.css);
-@import url(../blocks/two-columns/_nomargin/two-columns_nomargin.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
